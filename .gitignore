@@ -1,0 +1,53 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Entorno
+.env
+.env.local
+.env.*.local
+
+# Tests y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Docker
+*.log
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# AWS / Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!terraform.tfvars.example
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Datos locales (nunca al repo)
+data/raw/
+data/processed/
+*.csv
+*.parquet
